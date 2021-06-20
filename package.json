@@ -1,0 +1,23 @@
+{
+  "name": "shopzen_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "heroku": "^7.54.1",
+    "stripe": "^8.156.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
