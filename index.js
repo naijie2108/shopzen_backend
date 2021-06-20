@@ -12,7 +12,6 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  console.log("asa");
   res.send("test");
 });
 
