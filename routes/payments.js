@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
-require("dotenv").config({ path: "./../test.env" });
-const stripe = require("stripe")(process.env.STRIPE_API_KEY);
+const stripe = require("stripe")(`${process.env.STRIPE_API_KEY}`);
 
 router.get("/*", (req, res) => {
   res.send({ abc: "abc" });
